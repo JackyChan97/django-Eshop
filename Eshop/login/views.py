@@ -1,32 +1,34 @@
 from django.shortcuts import render,redirect
 
 from login.models import User # 要不然下面不行
+
+from . import  models
+from login.forms import UserForm
 # Create your views here.
 def index(request):
     pass
     return render(request,'login/index.html')
 
+
 def login(request):
     if request.method == "POST":
-        username = request.POST.get('username', None)
-        password = request.POST.get('password', None)
-        message = "It can not be empty"
-        if username and password:  # 确保用户名和密码都不为空
-            username = username.strip()
-            # 用户名字符合法性验证
-            # 密码长度验证
-            # 更多的其它验证.....
+        login_form = UserForm(request.POST)
+        message = "It cannot be empty!"
+        if login_form.is_valid():
+            username = login_form.cleaned_data['username']
+            password = login_form.cleaned_data['password']
             try:
-                user = User.objects.get(name=username)
-
+                user = models.User.objects.get(name=username)
                 if user.password == password:
                     return redirect('/index/')
                 else:
-                    message = "password is wrong"
+                    message = "Password is wrong!"
             except:
                 message = "User is not exist"
-        return render(request, 'login/login.html',{"message":message})
-    return render(request, 'login/login.html')
+        return render(request, 'login/login.html', locals())
+
+    login_form = UserForm()
+    return render(request, 'login/login.html', locals())
 
 def register(request):
     pass
