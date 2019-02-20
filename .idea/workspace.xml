@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0a44fb-3948-4efb-a6fe-2b975636dafd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/Eshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/Eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/Eshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/login/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/login/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/login/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/login/templates/login/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eshop/requirement" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/requirement" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +42,7 @@
           <entry key="html" value="9" />
           <entry key="js" value="1" />
           <entry key="py" value="12" />
-          <entry key="requirement" value="2" />
+          <entry key="requirement" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -58,7 +50,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="12" />
         </counts>
       </usages-collector>
@@ -66,13 +58,13 @@
         <counts>
           <entry key="html" value="196" />
           <entry key="py" value="877" />
-          <entry key="requirement" value="50" />
+          <entry key="requirement" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="196" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="PLAIN_TEXT" value="72" />
           <entry key="Python" value="877" />
         </counts>
       </usages-collector>
@@ -119,6 +111,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Eshop/requirement">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eshop/Eshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,18 +153,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eshop/base/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/static/JS/jquery-3.2.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -197,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Eshop/requirement" />
         <option value="$PROJECT_DIR$/Eshop/login/admin.py" />
         <option value="$PROJECT_DIR$/Eshop/static/CSS/login.css" />
         <option value="$PROJECT_DIR$/Eshop/templates/base.html" />
@@ -211,6 +206,7 @@
         <option value="$PROJECT_DIR$/Eshop/login/templates/login/register.html" />
         <option value="$PROJECT_DIR$/Eshop/login/forms.py" />
         <option value="$PROJECT_DIR$/Eshop/base/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/Eshop/requirement" />
       </list>
     </option>
   </component>
@@ -355,6 +351,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18538205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -405,13 +402,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/base.html" />
-    <entry file="file://$PROJECT_DIR$/Eshop/requirement">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/static/CSS/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -491,6 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/requirement">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
