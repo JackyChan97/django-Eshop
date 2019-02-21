@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'login',
     'base',
     'captcha',
+    'shopping',
 ]
 
 MIDDLEWARE = [

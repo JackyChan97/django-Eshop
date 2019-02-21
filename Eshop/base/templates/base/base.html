@@ -44,6 +44,9 @@
             <ul class="nav navbar-nav navbar-right">
               {% if request.session.is_login %}
                   <li><a href="#">Hello：{{ request.session.user_name }}</a></li>
+                  <li><a href="/add/">Add goods</a></li>
+                  <li><a href="/modify/">Modify goods</a></li>
+
                   <li><a href="/logout/">Logout</a></li>
               {% else %}
                   <li><a href="/login/">Sign in</a></li>

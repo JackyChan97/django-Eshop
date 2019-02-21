@@ -1,0 +1,38 @@
+{#login/templates/login/index.html#}
+
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'static/bootstrap-fileinput-master/fileinput.css' %}">
+{% endblock %}
+{% block title %}主页{% endblock %}
+{% block content %}
+    {% if request.session.is_login %}
+    <div class="container-fluid">
+    <form id="form" action="upload/insert" method="post" enctype="multipart/form-data">
+         <div class="form-group">
+            <div class="col-md-8">
+                <div class="fileinput fileinput-new" data-provides="fileinput" id="uploadImageDiv">
+                    <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+                        <img src="${companyInfo.image}" alt="" />
+                    </div>
+                    <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+                    <div>
+                        <span class="btn default btn-file"> <span
+                                            class="fileinput-new">选择图片</span> <span class="fileinput-exists">更改</span> <input type="file" name="uploadImage" id="uploadImage" /></span>
+                        <a href="#" class="btn default fileinput-exists" data-dismiss="fileinput">移除</a>
+                        <span>请选择1M以内图片</span>
+                    </div>
+                </div>
+                <div id="titleImageError" style="color: #a94442"></div>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}

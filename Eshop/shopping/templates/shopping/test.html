@@ -1,0 +1,155 @@
+{#login/templates/login/index.html#}
+ 
+{% extends 'base/base.html' %}
+{% block title %}主页{% endblock %}
+{% block content %}
+    {% if request.session.is_login %}
+    <div id="content-main">
+
+
+
+<form enctype="multipart/form-data" action="" method="post" id="goods_form" novalidate=""><input type="hidden" name="csrfmiddlewaretoken" value="c76vXAvg89ArbzgDGgqwVlNEugUhYuh5baZkBPCJD5UdN8DURiFE6jh7m2aFCeZd">
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+
+
+
+        <div class="form-row field-name">
+
+
+                <div>
+
+
+                        <label class="required" for="id_name">Name:</label>
+
+                            <input type="text" name="name" class="vTextField" maxlength="128" required="" id="id_name">
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-price">
+
+
+                <div>
+
+
+                        <label class="required" for="id_price">Price:</label>
+
+                            <input type="number" name="price" step="0.01" required="" id="id_price">
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-userName">
+
+
+                <div>
+
+
+                        <label class="required" for="id_userName">UserName:</label>
+
+                            <div class="related-widget-wrapper">
+    <select name="userName" required="" id="id_userName">
+  <option value="" selected="">---------</option>
+
+  <option value="2">shaba</option>
+
+  <option value="3">123</option>
+
+</select>
+
+        <a class="related-widget-wrapper-link change-related" id="change_id_userName" data-href-template="/admin/login/user/__fk__/change/?_to_field=id&amp;_popup=1" title="更改选中的用户"><img src="/static/admin/img/icon-changelink.svg" alt="修改"></a><a class="related-widget-wrapper-link add-related" id="add_id_userName" href="/admin/login/user/add/?_to_field=id&amp;_popup=1" title="增加另一个 用户"><img src="/static/admin/img/icon-addlink.svg" alt="增加"></a>
+
+</div>
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-introduction">
+
+
+                <div>
+
+
+                        <label class="required" for="id_introduction">Introduction:</label>
+
+                            <input type="text" name="introduction" class="vTextField" maxlength="1024" required="" id="id_introduction">
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-imagePath">
+
+
+                <div>
+
+
+                        <label class="required" for="id_imagePath">ImagePath:</label>
+
+                            <input type="file" name="imagePath" required="" id="id_imagePath">
+
+
+
+                </div>
+
+        </div>
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="保存" class="default" name="_save">
+
+
+<input type="submit" value="保存并增加另一个" name="_addanother">
+<input type="submit" value="保存并继续编辑" name="_continue">
+</div>
+
+
+
+    <script type="text/javascript" id="django-admin-form-add-constants" src="/static/admin/js/change_form.js" data-model-name="goods">
+    </script>
+
+
+
+
+<script type="text/javascript" id="django-admin-prepopulated-fields-constants" src="/static/admin/js/prepopulate_init.js" data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}
