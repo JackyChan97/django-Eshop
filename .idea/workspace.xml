@@ -2,67 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0a44fb-3948-4efb-a6fe-2b975636dafd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/LANG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/cr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/piexif.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/piexif.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/purify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/purify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eshop/static/CSS/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eshop/static/CSS/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eshop/static/CSS/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eshop/static/CSS/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/Eshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/Eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/Eshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eshop/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,48 +34,50 @@
     <session id="-348690848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="23" />
-          <entry key="js" value="4" />
+          <entry key="css" value="7" />
+          <entry key="html" value="29" />
+          <entry key="js" value="5" />
           <entry key="map" value="1" />
-          <entry key="py" value="26" />
+          <entry key="py" value="31" />
           <entry key="requirement" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="23" />
-          <entry key="JavaScript" value="4" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="29" />
+          <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="31" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="319" />
-          <entry key="py" value="1861" />
+          <entry key="html" value="390" />
+          <entry key="py" value="1863" />
           <entry key="requirement" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="319" />
+          <entry key="HTML" value="390" />
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="1861" />
+          <entry key="Python" value="1863" />
         </counts>
       </usages-collector>
     </session>
@@ -137,86 +85,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="14" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/login/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Eshop/shopping/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1550753410866" expanded="true" signature="112:113" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/add.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="280">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#span#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="e#1483#1489#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ar.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eshop/static/CSS/login.css">
+        <entry file="file://$PROJECT_DIR$/Eshop/base/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="180">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eshop/login/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#1#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eshop/Eshop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eshop/static/JS/jquery-3.2.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8473" column="62" selection-start-line="8473" selection-start-column="56" selection-end-line="8473" selection-end-column="62" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1560">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Eshop/login/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eshop/Eshop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -229,6 +187,9 @@
       <find>RegisterForm</find>
       <find>sex</find>
       <find>block</find>
+      <find>选择</find>
+      <find>gly</find>
+      <find>submit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,7 +211,6 @@
         <option value="$PROJECT_DIR$/Eshop/login/models.py" />
         <option value="$PROJECT_DIR$/Eshop/login/templates/login/login.html" />
         <option value="$PROJECT_DIR$/Eshop/login/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/Eshop/login/views.py" />
         <option value="$PROJECT_DIR$/Eshop/login/templates/login/register.html" />
         <option value="$PROJECT_DIR$/Eshop/requirement" />
         <option value="$PROJECT_DIR$/Eshop/base/templates/base/base.html" />
@@ -259,9 +219,10 @@
         <option value="$PROJECT_DIR$/Eshop/Eshop/urls.py" />
         <option value="$PROJECT_DIR$/Eshop/login/forms.py" />
         <option value="$PROJECT_DIR$/Eshop/shopping/admin.py" />
+        <option value="$PROJECT_DIR$/Eshop/shopping/models.py" />
         <option value="$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html" />
         <option value="$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html" />
-        <option value="$PROJECT_DIR$/Eshop/shopping/models.py" />
+        <option value="$PROJECT_DIR$/Eshop/login/views.py" />
       </list>
     </option>
   </component>
@@ -271,10 +232,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1221" />
-    <option name="height" value="1041" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-13" />
+    <option name="width" value="1224" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -300,24 +261,12 @@
               <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="Eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="Eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,7 +274,22 @@
               <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-fileinput-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-Eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,25 +300,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/django-Eshop" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Webdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-fileinput-master\js" />
-      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-fileinput-master\css" />
-      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-3.3.7-dist\js" />
-      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-3.3.7-dist\css" />
-      <recent name="E:\PyProject\django-Eshop\Eshop\login\templates\login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PyProject\django-Eshop\Eshop\base" />
       <recent name="E:\PyProject\django-Eshop\Eshop\templates\base" />
       <recent name="E:\PyProject\django-Eshop\Eshop\templates" />
       <recent name="E:\PyProject\django-Eshop\Eshop" />
       <recent name="E:\PyProject\django-Eshop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyProject\django-Eshop\Eshop\static\CSS" />
+      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-fileinput-master\js" />
+      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-fileinput-master\css" />
+      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-3.3.7-dist\js" />
+      <recent name="E:\PyProject\django-Eshop\Eshop\static\bootstrap-3.3.7-dist\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +358,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19069767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19601329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -443,23 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/Eshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/login/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,29 +430,6 @@
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/login/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="24" selection-start-line="17" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <marker date="1550669451710" expanded="true" signature="391:392" ph="..." />
-            <marker date="1550669451710" expanded="true" signature="391:396" ph="..." />
-            <marker date="1550669451710" expanded="true" signature="549:554" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/shopping/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -509,11 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <marker date="1550736723863" expanded="true" signature="112:117" ph="..." />
-            <marker date="1550736723863" expanded="true" signature="191:196" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,47 +444,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/base/templates/base/base.html">
+    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/js/locales/ar.js" />
+    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/css/fileinput.css" />
+    <entry file="file://$PROJECT_DIR$/Eshop/login/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="320">
+          <caret line="16" column="34" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" selection-start-line="42" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="154" column="14" selection-end-line="154" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/Eshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/js/locales/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/css/fileinput.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -570,7 +463,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/static/JS/jquery-3.2.1.js">
+    <entry file="file://$PROJECT_DIR$/Eshop/shopping/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1550753479913" expanded="true" signature="112:113" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="31" selection-end-line="36" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#span#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#1484#1490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ar.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/static/CSS/login.css">
@@ -579,12 +497,6 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/js/locales/ar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-fileinput-master/css/fileinput.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/add.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -596,33 +508,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/static/CSS/fileinput.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/Eshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Webdemo/bootstrap图片上传/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1803">
+          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Eshop/shopping/templates/shopping/modify.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="280">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#span#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#1483#1489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/login/models.py">
+    <entry file="file://$PROJECT_DIR$/Eshop/base/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="180">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eshop/shopping/models.py">
+    <entry file="file://$PROJECT_DIR$/Eshop/login/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1550753410866" expanded="true" signature="112:113" ph="..." />
+            <element signature="e#1#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/login/templates/login/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/static/bootstrap-3.3.7-dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1560">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/static/JS/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8473" column="62" selection-start-line="8473" selection-start-column="56" selection-end-line="8473" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/base/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/Eshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eshop/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
