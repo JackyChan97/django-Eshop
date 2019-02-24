@@ -12,7 +12,7 @@ class Goods(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True)
     userName = models.ForeignKey(User,on_delete=models.CASCADE,related_name="user_goods", blank=True, null=True)
     introduction = models.CharField(max_length=1024)
-    imagePath = models.ImageField(upload_to="upload/%y/%m/%d",default='', blank=True)
+    imagePath = models.ImageField(upload_to="upload",default='', blank=True)
     kind = models.CharField(max_length=32,choices=category,default="Men's wear")
     def __str__(self):
         return self.name

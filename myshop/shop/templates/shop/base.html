@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}My shop{% endblock %}</title>
+    <link href="{% static "css/base.css" %}" rel="stylesheet">
+    <link href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav" aria-expanded="false">
+            <span class="sr-only">切换导航条</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" >353's shop</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+        <div class="collapse navbar-collapse" id="my-nav">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              {% if request.session.is_login %}
+                  <li><a href="#">Hello：{{ request.session.user_name }}</a></li>
+                  <li><a href="/log/logout/">Logout</a></li>
+              {% else %}
+                  <li><a href="/log/login/">Sign in</a></li>
+                  <li><a href="/log/register/">Sign up</a></li>
+              {% endif %}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+
+        <div id="subheader">
+        <div class="cart">
+            {% if request.session.is_login %}
+            {% with total_items=cart|length %}
+                {% if cart|length > 0 %}
+                    Your cart:
+                    <a href="{% url "cart:cart_detail" %}">
+                        {{ total_items }} item{{ total_items|pluralize }}, ${{ cart.get_total_price }}
+                    </a>
+                {% else %}
+                    Your cart is empty.
+                {% endif %}
+            {% endwith %}
+            {% else %}
+                Please login
+            {% endif %}
+        </div>
+    </div>
+    </nav>
+
+
+
+
+
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

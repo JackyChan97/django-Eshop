@@ -27,8 +27,8 @@ def add(request):
                 myFile = request.FILES.get("myfile", None)
 
                 if myFile:
-                    da = time.strftime("%y/%m/%d")
-                    path = os.path.join("upload", da, myFile.name)
+                    da = time.strftime("%y_%m_%d_%H_%M_%S-")
+                    path = os.path.join("upload", da+myFile.name)
                     destination = open(path, 'wb+')  # 打开特定的文件进行二进制的写操作
                     for chunk in myFile.chunks():  # 分块写入文件
                         destination.write(chunk)
